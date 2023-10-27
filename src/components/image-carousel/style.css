@@ -1,0 +1,11 @@
+.carousel-container {
+  display: flex;
+  align-items: center;
+  border: 0px solid red;
+  width: 100%;
+}
+
+.carousel-images {
+  width: 16.66%;
+  height: auto;
+}

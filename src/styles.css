@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'PoppinsExtraLight';
+  src: url('./components/assets/Fonts/Poppins/Poppins-ExtraLight.ttf') format('ttf');
+}
+body {
+  margin: 0;
+}
+p {
+  font-family: PoppinsExtraLight;
+  color: #49776a;
+}
+
+h1 {
+  font-size: xx-large;
+  color: #49776a;
+}
