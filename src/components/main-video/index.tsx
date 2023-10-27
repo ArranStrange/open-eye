@@ -1,12 +1,10 @@
-import videoSource from '../assets/test-title-video.mp4';
 import './styles.css';
 
 function VideoComponent() {
   return (
     <div className="video-container">
       <video className="video-content" autoPlay controls loop>
-        <source src={videoSource} type="video/mp4" />
-        Your browser does not support the video tag.
+        <source src="./components/assets/test-title-video.mp4" type="video/mp4" />
       </video>
     </div>
   );

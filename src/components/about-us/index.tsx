@@ -3,7 +3,10 @@ import './styles.css';
 function AboutUs() {
   return (
     <div className="about-us">
-      <div className="header">ABOUT US</div>
+      <div className="header">
+        ABOUT <br />
+        US
+      </div>
       <body className="about-us-content body">
         We're Saph and Luke, Motion and Graphics Guys. Check out the video above, it's not ours, but
         it's cool. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque feugiat in

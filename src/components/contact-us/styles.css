@@ -1,8 +1,9 @@
 .contact-us {
-  display: grid;
+  display: flex;
   flex-direction: column;
   grid-template: repeat(1, 1fr) / 1fr 1fr;
-  border: 1px solid red;
+  border: 1px;
+  background-color: #d9c5be;
   font-weight: bold;
   align-items: center;
   width: 100%;
@@ -19,11 +20,11 @@
 }
 
 .contact-us-input {
-  border: 1px solid black;
+  border: 1px solid #889ba1;
   border-radius: 5px;
-  font-family: monospace;
-  color: white;
-  background-color: black;
+  font-family: PoppinsExtraLight;
+  color: #f4f4f4;
+  background-color: #889ba1;
   margin: 2px;
   width: 100%;
 }
@@ -48,9 +49,9 @@
 
 .contact-us-send-button {
   display: flex;
-  border: 1px solid black;
-  background-color: black;
-  color: white;
+  border: 1px solid #889ba1;
+  background-color: #889ba1;
+  color: #d5c1ba;
   border-radius: 5px;
   justify-content: center;
   width: 100%;
@@ -60,15 +61,8 @@
   align-items: center;
 }
 
-.saph-headshot {
-  border: solid whitesmoke;
-  border-radius: 1000px;
-  width: 200px;
-  height: auto;
-  margin: 20px;
-}
-.luke-headshot {
-  border: solid whitesmoke;
+.headshots {
+  border: 5px solid #49776a;
   border-radius: 1000px;
   width: 200px;
   height: auto;

@@ -1,7 +1,9 @@
 .video-container {
   display: flex;
+  position: relative;
+  overflow: hidden;
   flex-direction: column;
-  border: 1px solid red;
+  border: 0px solid red;
   font-weight: bold;
   align-items: center;
   width: 100%;
@@ -9,7 +11,7 @@
 
 .video-content {
   display: flex;
-  flex-direction: column;
-  width: 500px;
+  width: 100%;
+  height: auto;
   border-radius: 50px;
 }

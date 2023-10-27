@@ -25,8 +25,8 @@ function ContactUs() {
         <button className="contact-us-send-button">Send</button>
       </div>
       <div className="contact-us-images">
-        <img className="saph-headshot" src={saphHeadshot}></img>
-        <img className="luke-headshot" src={lukeHeadshot} />
+        <img className="headshots" src={saphHeadshot}></img>
+        <img className="headshots" src={lukeHeadshot} />
       </div>
     </div>
   );
