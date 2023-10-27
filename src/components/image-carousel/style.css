@@ -1,0 +1,16 @@
+.carousel-container {
+  display: grid;
+  image-rendering: crisp-edges;
+  border-radius: 100px;
+  flex-direction: column;
+  grid-template: repeat(1, 1fr) / 1fr 1fr;
+  border: 1px solid red;
+  font-weight: bold;
+  align-items: center;
+  width: 100%;
+}
+
+.carousel-images {
+  width: 200px;
+  height: auto;
+}

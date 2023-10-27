@@ -1,9 +1,11 @@
+import lukeHeadshot from '../assets/luke-headshot.png';
+import saphHeadshot from '../assets/saph-headshot.png';
 import './styles.css';
 
 function ContactUs() {
   return (
     <div className="contact-us">
-      <div className="contact-us-form">
+      <div className="contact-us contact-us-form">
         Contact Us
         <div className="contact-us-names">
           <input
@@ -21,6 +23,10 @@ function ContactUs() {
           <textarea className="contact-us-input" placeholder="Message" />
         </div>
         <button className="contact-us-send-button">Send</button>
+      </div>
+      <div className="contact-us-images">
+        <img className="saph-headshot" src={saphHeadshot}></img>
+        <img className="luke-headshot" src={lukeHeadshot} />
       </div>
     </div>
   );

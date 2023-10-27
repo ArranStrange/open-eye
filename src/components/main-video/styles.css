@@ -1,0 +1,15 @@
+.video-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  font-weight: bold;
+  align-items: center;
+  width: 100%;
+}
+
+.video-content {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border-radius: 50px;
+}

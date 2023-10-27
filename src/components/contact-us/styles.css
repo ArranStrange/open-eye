@@ -1,9 +1,11 @@
 .contact-us {
-  display: flex;
+  display: grid;
   flex-direction: column;
+  grid-template: repeat(1, 1fr) / 1fr 1fr;
   border: 1px solid red;
   font-weight: bold;
   align-items: center;
+  width: 100%;
 }
 
 .contact-us-form {
@@ -12,6 +14,8 @@
   align-items: center;
   flex-direction: column;
   width: 350px;
+  height: auto;
+  margin: auto;
 }
 
 .contact-us-input {
@@ -50,4 +54,23 @@
   border-radius: 5px;
   justify-content: center;
   width: 100%;
+}
+
+.contact-us-images {
+  align-items: center;
+}
+
+.saph-headshot {
+  border: solid whitesmoke;
+  border-radius: 1000px;
+  width: 200px;
+  height: auto;
+  margin: 20px;
+}
+.luke-headshot {
+  border: solid whitesmoke;
+  border-radius: 1000px;
+  width: 200px;
+  height: auto;
+  margin: 20px;
 }

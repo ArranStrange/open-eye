@@ -1,0 +1,27 @@
+.about-us {
+  display: grid;
+  border: 1px solid red;
+  align-items: center;
+  grid-template: repeat(1, 1fr) / 1fr 1fr;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: flex-end;
+  font-size: 100px;
+}
+
+.about-us-content {
+  display: flex;
+  text-align: flex start;
+  width: 500px;
+  border-radius: 50px;
+  flex-wrap: wrap;
+}
+
+.bold-text {
+  font-weight: bold;
+  font-size: 150px;
+}
