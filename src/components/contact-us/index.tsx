@@ -6,7 +6,7 @@ import './styles.css';
 
 function ContactUs() {
   return (
-    <Fade duration={2000}>
+    <Fade duration={2000} triggerOnce={true}>
       <div className="contact-us">
         <div className="contact-us-form-wrapper">
           <div className="contact-us-form">

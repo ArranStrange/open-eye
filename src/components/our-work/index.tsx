@@ -4,8 +4,8 @@ import './styles.css';
 
 function OurWork() {
   return (
-    <Fade direction="right" duration={2000}>
-      <div className="our-work">
+    <div className="our-work">
+      <Fade direction="left" duration={2000} triggerOnce={true}>
         <p className="our-work-content body">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque feugiat in elit a
           dapibus. Curabitur odio quam, convallis in vulputate nec, fringilla sit amet nibh. Cras
@@ -14,9 +14,11 @@ function OurWork() {
           Proin fermentum mauris ac lacus egestas, a iaculis felis tristique. Cras sit amet neque
           quam. Nam egestas quis augue at condimentum.
         </p>
+      </Fade>
+      <Fade direction="right" duration={2000} triggerOnce={true}>
         <h1 className="our-work-header">OUR WORK</h1>
-      </div>
-    </Fade>
+      </Fade>
+    </div>
   );
 }
 

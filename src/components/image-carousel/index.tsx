@@ -12,7 +12,7 @@ import './style.css';
 
 function ImageCarousel() {
   return (
-    <Fade direction="right" duration={2000}>
+    <Fade direction="right" duration={2000} triggerOnce={true}>
       <Carousel autoPlay interval={4000} infiniteLoop showThumbs={false} showStatus={false}>
         <div>
           <img className="carousel-images" src={carouselImage1} />

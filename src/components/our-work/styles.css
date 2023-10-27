@@ -20,7 +20,6 @@
 .our-work-content {
   display: flex;
   flex: 1;
-  text-align: end;
-  border-radius: 50px;
   flex-wrap: wrap;
+  text-align: end;
 }

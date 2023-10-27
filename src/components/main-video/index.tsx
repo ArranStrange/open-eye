@@ -5,7 +5,7 @@ import './styles.css';
 
 function VideoComponent() {
   return (
-    <Fade duration={2000}>
+    <Fade duration={2000} triggerOnce={true}>
       <div className="video-container">
         <video className="video-content" autoPlay muted loop>
           <source src={videoSource} type="video/mp4" />

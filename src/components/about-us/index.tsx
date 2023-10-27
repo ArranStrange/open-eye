@@ -4,9 +4,11 @@ import './styles.css';
 
 function AboutUs() {
   return (
-    <Fade direction="left" duration={2000}>
-      <div className="about-us">
+    <div className="about-us">
+      <Fade direction="left" duration={2000} triggerOnce={true}>
         <h1 className="header">ABOUT US</h1>
+      </Fade>
+      <Fade direction="right" duration={2000} triggerOnce={true}>
         <p className="about-us-content body">
           We're Saph and Luke, Motion and Graphics Guys. Check out the video above, it's not ours,
           but it's cool. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
@@ -16,8 +18,8 @@ function AboutUs() {
           eget pharetra. Proin fermentum mauris ac lacus egestas, a iaculis felis tristique. Cras
           sit amet neque quam. Nam egestas quis augue at condimentum.
         </p>
-      </div>
-    </Fade>
+      </Fade>
+    </div>
   );
 }
 
