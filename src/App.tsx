@@ -8,21 +8,11 @@ import './styles.css';
 function App() {
   return (
     <>
-      <div>
-        <MainVideo />
-      </div>
-      <div>
-        <AboutUs />
-      </div>
-      <div>
-        <ImageCarousel />
-      </div>
-      <div>
-        <OurWork />
-      </div>
-      <div>
-        <ContactUs />
-      </div>
+      <MainVideo />
+      <AboutUs />
+      <ImageCarousel />
+      <OurWork />
+      <ContactUs />
     </>
   );
 }
