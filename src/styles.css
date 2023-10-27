@@ -3,7 +3,7 @@
   src: url('./components/assets/Fonts/Poppins/Poppins-ExtraLight.ttf') format('ttf');
 }
 
-body {
+p {
   font-family: PoppinsExtraLight;
   color: #49776a;
 }
