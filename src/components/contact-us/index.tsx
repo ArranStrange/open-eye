@@ -6,7 +6,7 @@ function ContactUs() {
   return (
     <div className="contact-us">
       <div className="contact-us contact-us-form">
-        Contact Us
+        <p>Contact Us</p>
         <div className="contact-us-names">
           <input
             id="constact-us-first-name"

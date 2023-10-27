@@ -1,3 +1,6 @@
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+
 import carouselImage1 from '../assets/carousel/1.png';
 import carouselImage2 from '../assets/carousel/2.png';
 import carouselImage3 from '../assets/carousel/3.png';
@@ -8,14 +11,26 @@ import './style.css';
 
 function ImageCarousel() {
   return (
-    <div className="carousel-container">
-      <img className="carousel-images" src={carouselImage1} />
-      <img className="carousel-images" src={carouselImage2} />
-      <img className="carousel-images" src={carouselImage3} />
-      <img className="carousel-images" src={carouselImage4} />
-      <img className="carousel-images" src={carouselImage5} />
-      <img className="carousel-images" src={carouselImage6} />
-    </div>
+    <Carousel autoPlay interval={4000} infiniteLoop showThumbs={false} showStatus={false}>
+      <div>
+        <img className="carousel-images" src={carouselImage1} />
+      </div>
+      <div>
+        <img className="carousel-images" src={carouselImage2} />
+      </div>
+      <div>
+        <img className="carousel-images" src={carouselImage3} />
+      </div>
+      <div>
+        <img className="carousel-images" src={carouselImage4} />
+      </div>
+      <div>
+        <img className="carousel-images" src={carouselImage5} />
+      </div>
+      <div>
+        <img className="carousel-images" src={carouselImage6} />
+      </div>
+    </Carousel>
   );
 }
 export default ImageCarousel;

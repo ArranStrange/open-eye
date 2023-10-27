@@ -11,10 +11,7 @@ function OurWork() {
         fermentum mauris ac lacus egestas, a iaculis felis tristique. Cras sit amet neque quam. Nam
         egestas quis augue at condimentum.
       </p>
-      <div className="our-work-header">
-        OUR <br />
-        WORK
-      </div>
+      <h1 className="our-work-header">OUR WORK</h1>
     </div>
   );
 }
