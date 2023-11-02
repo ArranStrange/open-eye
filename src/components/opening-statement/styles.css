@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Moderat-Regular';
+  src: url('/Users/arranstrange/Documents/Coding/luke-and-saph/src/components/assets/Fonts/Moderat-Regular.otf')
+    format('otf');
+}
+
+.opening-statement-div {
+  display: flex;
+  background-color: #eeedec;
+  color: #0077ff;
+  width: 100vmax;
+  z-index: -1;
+}
+
+.opening-statement {
+  height: 30%;
+  width: 40%;
+  font-family: Moderat-Regular;
+  font-size: 50px;
+  color: #0077ff;
+  z-index: 0;
+}
+
+.black-icon {
+  position: relative;
+  overflow: hidden;
+  left: -300px;
+  width: 500px;
+  height: auto;
+  z-index: 0;
+}
+
+.yellow-icon {
+  position: relative;
+  overflow: hidden;
+  right: -200px;
+  top: 100px;
+  width: 500px;
+  height: auto;
+  z-index: 1;
+}

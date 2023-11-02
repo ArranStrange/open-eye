@@ -1,16 +1,20 @@
 @font-face {
-  font-family: 'PoppinsExtraLight';
-  src: url('./components/assets/Fonts/Poppins/Poppins-ExtraLight.ttf') format('ttf');
+  font-family: 'Moderat';
+  src: url('/Users/arranstrange/Documents/Coding/luke-and-saph/src/components/assets/Fonts/Moderat-Regular.otf')
+    format('otf');
 }
 body {
   margin: 0;
+  font-family: 'Moderat';
 }
 p {
-  font-family: PoppinsExtraLight;
-  color: #49776a;
+  font-family: 'Moderat';
+  font-size: large;
+  color: #eeedec;
 }
 
 h1 {
+  font-family: 'Moderat';
   font-size: xx-large;
-  color: #49776a;
+  color: #eeedec;
 }

@@ -1,9 +1,9 @@
 .video-container {
   display: flex;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   flex-direction: column;
-  border: 0px solid red;
+  background-color: #0b1e2d;
   font-weight: bold;
   align-items: center;
   width: 100%;
@@ -11,6 +11,8 @@
 
 .video-content {
   display: flex;
-  width: 100%;
+  width: 80%;
   height: auto;
+  z-index: 1;
+  bottom: -500px;
 }
