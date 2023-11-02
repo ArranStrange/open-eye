@@ -1,5 +1,6 @@
 .navbar {
   display: flex;
+  font-family: Moderat;
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: #eeedec;
@@ -9,6 +10,7 @@
 }
 .links {
   display: box;
+  font-family: Moderat;
   flex-direction: row;
   justify-content: end;
   color: #000000;

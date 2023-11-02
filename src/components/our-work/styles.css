@@ -19,6 +19,7 @@
 
 .our-work-content {
   display: flex;
+  font-family: Moderat;
   flex: 1;
   flex-wrap: wrap;
   text-align: end;

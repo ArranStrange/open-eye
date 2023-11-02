@@ -1,8 +1,8 @@
 @font-face {
-  font-family: 'Moderat';
-  src: url('/Users/arranstrange/Documents/Coding/luke-and-saph/src/components/assets/Fonts/Moderat-Regular.otf')
-    format('otf');
+  font-family: Moderat;
+  src: url(/Users/arranstrange/Documents/Coding/luke-and-saph/src/components/assets/Fonts/Moderat-Regular.otf);
 }
+
 body {
   margin: 0;
   font-family: 'Moderat';

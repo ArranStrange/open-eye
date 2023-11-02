@@ -11,6 +11,7 @@
 
 .about-us-content-left {
   display: flex;
+  font-family: Moderat;
   padding-left: 100px;
   font-size: 50px;
   width: 60%;
@@ -39,6 +40,7 @@
 
 .about-us-content-right {
   display: flex;
+  font-family: Moderat;
   padding-right: 100px;
   font-size: 30px;
   width: 33.3%;
@@ -51,7 +53,7 @@
   position: relative;
   overflow: hidden;
   right: 100px;
-  top: -75px;
+  top: -20px;
   width: 500px;
   height: auto;
   z-index: 1;
