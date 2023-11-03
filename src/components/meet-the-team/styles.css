@@ -8,7 +8,7 @@
 }
 
 .meet-the-team-content-container {
-  width: 75%;
+  width: 86%;
   margin: 50px;
   align-items: center;
   justify-content: center;
@@ -29,14 +29,20 @@
 }
 
 .meet-the-team-link {
-  width: 100%;
+  width: 98%;
   display: flex;
-  justify-content: flex-end;
-  margin-top: 10px;
+  justify-content: end;
+  padding-top: 20px;
   color: #eeedec;
+  z-index: 2;
 }
 
 .yellow-dot {
   width: 15px;
   padding-right: 10px;
+  justify-content: end;
+}
+
+.meet-the-team-text {
+  color: #eeedec;
 }

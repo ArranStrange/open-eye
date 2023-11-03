@@ -4,33 +4,41 @@
 }
 
 @font-face {
-  font-family: Runda;
-  src: url(https://use.typekit.net/hfs2ijc.css);
+  font-family: 'Runda W00 Normal';
+  src: url('https://db.onlinewebfonts.com/t/63d76549dab079596f161248e8bf3891.eot');
+  src:
+    url('https://db.onlinewebfonts.com/t/63d76549dab079596f161248e8bf3891.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://db.onlinewebfonts.com/t/63d76549dab079596f161248e8bf3891.woff2') format('woff2'),
+    url('https://db.onlinewebfonts.com/t/63d76549dab079596f161248e8bf3891.woff') format('woff'),
+    url('https://db.onlinewebfonts.com/t/63d76549dab079596f161248e8bf3891.ttf') format('truetype'),
+    url('https://db.onlinewebfonts.com/t/63d76549dab079596f161248e8bf3891.svg#Runda W00 Normal')
+      format('svg');
 }
 
 .app {
   margin: -10px;
-  overflow: inherit;
+  overflow: hidden;
 }
 
 .body {
   font-family: 'Moderat';
 }
 
-.p {
+p {
   font-family: 'Moderat';
   font-size: large;
   color: #eeedec;
 }
 
-.h1 {
+h1 {
   font-family: 'Moderat';
   font-size: xx-large;
   color: #eeedec;
 }
 
-.a {
-  font-family: 'Runda Normal' sans-serif;
-  color: #eeedec;
+a {
+  font-family: 'Runda W00 Normal';
+  color: #000000;
   font-size: large;
 }

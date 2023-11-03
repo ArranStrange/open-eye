@@ -5,6 +5,7 @@
 
 .opening-statement-div {
   display: flex;
+  overflow: hidden;
   justify-content: center;
   align-items: center;
   background-color: #eeedec;
@@ -14,7 +15,6 @@
 
 .opening-statement {
   display: flex;
-  flex-shrink: inherit;
   height: 30%;
   width: 50%;
   justify-content: center;
@@ -27,21 +27,17 @@
 }
 
 .black-icon {
-  position: absolute;
-  overflow: hidden;
   top: 100px;
-  left: -220px;
-  width: 500px;
+  margin-left: -220px;
+  width: 33%;
   height: auto;
   z-index: 0;
 }
 
 .yellow-icon {
-  position: absolute;
   overflow: hidden;
-  right: -150px;
-  top: 200px;
-  width: 500px;
-  height: auto;
+  margin-right: -220px;
+  margin-top: 200px;
+  width: 33%;
   z-index: 1;
 }

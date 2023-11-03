@@ -9,7 +9,7 @@ function MeetTheTeam() {
         <img className="meet-the-team-image shrink-on-hover" src={meetTheTeam}></img>
         <div className="meet-the-team-link">
           <img className="yellow-dot" src={yellowDot} />
-          <a>Meet the team </a>
+          <a className="meet-the-team-text">Meet the team </a>
         </div>
       </div>
     </div>
