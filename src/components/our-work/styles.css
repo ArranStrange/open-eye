@@ -11,8 +11,8 @@
   display: flex;
   justify-content: space-between;
   margin: 20px;
-  width: 500px;
-  height: 250px;
+  width: 600px;
+  height: 300px;
   z-index: 2;
   border-radius: 10px;
 }
