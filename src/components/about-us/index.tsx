@@ -1,7 +1,7 @@
+import yellowDot from '../assets/Dots/dot-yellow.svg';
+import blueIcon from '../assets/Icons/blue.svg';
+import greyIcon from '../assets/Icons/grey.svg';
 import './styles.css';
-import yellowDot from '/Users/arranstrange/Documents/Coding/luke-and-saph/src/components/assets/Dots/dot-yellow.svg';
-import blueIcon from '/Users/arranstrange/Documents/Coding/luke-and-saph/src/components/assets/Icons/blue.svg';
-import greyIcon from '/Users/arranstrange/Documents/Coding/luke-and-saph/src/components/assets/Icons/grey.svg';
 
 function AboutUs() {
   return (

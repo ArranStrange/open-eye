@@ -1,6 +1,6 @@
+import blackIcon from '../assets/Icons/black.svg';
+import yellowIcon from '../assets/Icons/yellow.svg';
 import './styles.css';
-import blackIcon from '/Users/arranstrange/Documents/Coding/luke-and-saph/src/components/assets/Icons/black.svg';
-import yellowIcon from '/Users/arranstrange/Documents/Coding/luke-and-saph/src/components/assets/Icons/yellow.svg';
 
 function OpeningStatement() {
   return (

@@ -1,6 +1,6 @@
+import yellowDot from '../assets/Dots/dot-yellow.svg';
+import meetTheTeam from '../assets/Images/Homepage/meet-the-team.jpeg';
 import './styles.css';
-import yellowDot from '/Users/arranstrange/Documents/Coding/luke-and-saph/src/components/assets/Dots/dot-yellow.svg';
-import meetTheTeam from '/Users/arranstrange/Documents/Coding/luke-and-saph/src/components/assets/Images/Homepage/meet-the-team.jpeg';
 
 function MeetTheTeam() {
   return (

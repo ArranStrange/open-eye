@@ -1,9 +1,7 @@
-import { Fade } from 'react-awesome-reveal';
-
+import forwards from '../assets/Images/Homepage/forwards.jpeg';
+import princes from '../assets/Images/Homepage/princes-gate.jpg';
+import stephenFry from '../assets/Images/Homepage/stephen-fry.jpeg';
 import './styles.css';
-import forwards from '/Users/arranstrange/Documents/Coding/luke-and-saph/src/components/assets/Images/Homepage/forwards.jpeg';
-import princes from '/Users/arranstrange/Documents/Coding/luke-and-saph/src/components/assets/Images/Homepage/princes-gate.jpg';
-import stephenFry from '/Users/arranstrange/Documents/Coding/luke-and-saph/src/components/assets/Images/Homepage/stephen-fry.jpeg';
 
 function OurWork() {
   return (
