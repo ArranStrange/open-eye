@@ -1,10 +1,10 @@
-.our-work-container {
+.our-work-image-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
   background-color: #060f16;
-  overflow: hidden;
 }
 
 .images {
@@ -13,8 +13,6 @@
   margin: 20px;
   width: 500px;
   height: 250px;
-  border: 10px;
-  border-color: white;
   z-index: 2;
   border-radius: 10px;
 }
