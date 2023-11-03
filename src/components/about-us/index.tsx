@@ -18,6 +18,7 @@ function AboutUs() {
           We simply add motion to brand identities to help them communicate quickly and efficiently.
           We take care of brands and maintain their authenticity, while adding new layers of
           expression and emotion.
+          <a className="link"> Find out more about what we do</a>
         </p>
       </div>
     </div>

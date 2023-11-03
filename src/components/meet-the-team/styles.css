@@ -1,0 +1,27 @@
+.meet-the-team-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #0077ff;
+  align-items: center;
+  justify-content: center;
+  width: 100vmax;
+  overflow: hidden;
+}
+
+.meet-the-team-content-container {
+  width: 75%;
+  margin: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.meet-the-team-image {
+  width: 100%;
+  border-radius: 10px;
+}
+.meet-the-team-link {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  color: #eeedec;
+}

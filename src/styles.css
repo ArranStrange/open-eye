@@ -3,18 +3,33 @@
   src: url(/Users/arranstrange/Documents/Coding/luke-and-saph/src/components/assets/Fonts/Moderat-Regular.otf);
 }
 
-body {
-  margin: 0;
+@font-face {
+  font-family: Runda;
+  src: url(https://use.typekit.net/hfs2ijc.css);
+}
+
+.app {
+  width: 100vmax;
+  overflow: inherit;
+}
+
+.body {
   font-family: 'Moderat';
 }
-p {
+.p {
   font-family: 'Moderat';
   font-size: large;
   color: #eeedec;
 }
 
-h1 {
+.h1 {
   font-family: 'Moderat';
   font-size: xx-large;
   color: #eeedec;
+}
+
+.a {
+  font-family: 'Runda Normal' sans-serif;
+  color: #eeedec;
+  font-size: large;
 }

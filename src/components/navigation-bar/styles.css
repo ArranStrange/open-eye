@@ -1,20 +1,18 @@
 .navbar {
   display: flex;
-  font-family: Moderat;
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: #eeedec;
   color: #0077ff;
   align-items: center;
   width: 100%;
+  overflow: hidden;
 }
 .links {
   display: box;
-  font-family: Moderat;
   flex-direction: row;
   justify-content: end;
   color: #000000;
-  font-size: large;
   padding-right: 20px;
 }
 

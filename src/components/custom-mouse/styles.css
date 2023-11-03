@@ -1,0 +1,7 @@
+.custom-cursor {
+  cursor: grab;
+  pointer-events: visible;
+  width: 50px;
+  position: fixed;
+  z-index: 1;
+}

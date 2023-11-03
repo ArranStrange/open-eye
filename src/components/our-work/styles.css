@@ -1,26 +1,40 @@
-.our-work {
+.our-work-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vmax;
+  background-color: #060f16;
+  overflow: hidden;
+}
+
+.images {
   display: flex;
   justify-content: space-between;
-  border: 0px solid red;
-  align-items: center;
-  grid-template: repeat(1, 1fr) / 1fr 1fr;
+  margin: 20px;
+  width: 500px;
+  height: 250px;
+  border: 10px;
+  transition: transform 0.3s; /* Smooth transition for scaling */
+  border-color: white;
+  z-index: 2;
+  border-radius: 10px;
+}
+
+.shrink-on-hover {
   width: 100%;
+  height: 100%;
+  transition: transform 0.3s; /* Smooth transition for scaling */
+
+  /* Optional: Define initial size or any other styling you need */
+  /* width: 100%; */
+  /* height: 100%; */
+  /* object-fit: cover; */
 }
 
-.our-work-header {
-  display: flex;
-  flex: 1;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-content: flex-start;
-  font-size: 100px;
-  text-align: start;
+.shrink-on-hover:hover {
+  transform: scale(0.9); /* Shrink the image to 90% of its original size on hover */
 }
 
-.our-work-content {
-  display: flex;
-  font-family: Moderat;
-  flex: 1;
-  flex-wrap: wrap;
-  text-align: end;
+.link {
 }
