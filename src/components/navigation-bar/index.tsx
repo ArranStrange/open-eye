@@ -1,5 +1,5 @@
+import mainLogo from '../assets/Logos/main-logo.svg';
 import './styles.css';
-import mainLogo from '/Users/arranstrange/Documents/Coding/luke-and-saph/src/components/assets/Logos/main-logo.svg';
 
 function NavigationBar() {
   return (

@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'Moderat-Regular';
-  src: url('/Users/arranstrange/Documents/Coding/luke-and-saph/src/components/assets/Fonts/Moderat-Regular.otf')
-    format('otf');
+  src: url('../assets/Fonts/Moderat-Regular.otf') format('otf');
 }
 
 .opening-statement-div {
