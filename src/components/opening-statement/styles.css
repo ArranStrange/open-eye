@@ -43,5 +43,6 @@
   right: -150px;
   top: 200px;
   width: 500px;
+  height: auto;
   z-index: 1;
 }

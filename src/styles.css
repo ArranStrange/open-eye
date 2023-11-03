@@ -9,7 +9,7 @@
 }
 
 .app {
-  width: 100vmax;
+  margin: -10px;
   overflow: inherit;
 }
 

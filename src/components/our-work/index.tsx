@@ -8,10 +8,10 @@ import stephenFry from '/Users/arranstrange/Documents/Coding/luke-and-saph/src/c
 function OurWork() {
   return (
     <div className="our-work-container">
-      <img className="images" src={stephenFry}></img>
-      <img className="images" src={forwards}></img>
-      <img className="images" src={princes}></img>
-      <img className="images" src={princes}></img>
+      <img className="images shrink-on-hover" src={stephenFry}></img>
+      <img className="images shrink-on-hover" src={forwards}></img>
+      <img className="images shrink-on-hover" src={princes}></img>
+      <img className="images shrink-on-hover" src={princes}></img>
     </div>
   );
 }

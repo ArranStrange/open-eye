@@ -4,7 +4,6 @@
   background-color: #0077ff;
   align-items: center;
   justify-content: center;
-  width: 100vmax;
   overflow: hidden;
 }
 
@@ -19,6 +18,16 @@
   width: 100%;
   border-radius: 10px;
 }
+
+.shrink-on-hover {
+  display: flex;
+  transition-duration: 0.3s;
+}
+.shrink-on-hover:hover,
+.shrink-on-hover:active {
+  transform: scale(0.97);
+}
+
 .meet-the-team-link {
   display: flex;
   justify-content: flex-end;

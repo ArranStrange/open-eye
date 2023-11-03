@@ -3,7 +3,6 @@
   justify-content: space-around;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100vmax;
   background-color: #060f16;
   overflow: hidden;
 }
@@ -15,25 +14,18 @@
   width: 500px;
   height: 250px;
   border: 10px;
-  transition: transform 0.3s; /* Smooth transition for scaling */
   border-color: white;
   z-index: 2;
   border-radius: 10px;
 }
 
 .shrink-on-hover {
-  width: 100%;
-  height: 100%;
-  transition: transform 0.3s; /* Smooth transition for scaling */
-
-  /* Optional: Define initial size or any other styling you need */
-  /* width: 100%; */
-  /* height: 100%; */
-  /* object-fit: cover; */
+  display: flex;
+  transition-duration: 0.3s;
 }
-
-.shrink-on-hover:hover {
-  transform: scale(0.9); /* Shrink the image to 90% of its original size on hover */
+.shrink-on-hover:hover,
+.shrink-on-hover:active {
+  transform: scale(0.97);
 }
 
 .link {
