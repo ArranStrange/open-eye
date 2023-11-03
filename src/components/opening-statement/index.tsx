@@ -5,7 +5,7 @@ import './styles.css';
 
 function OpeningStatement() {
   const offsetY = useScrollPosition();
-
+  console.log(offsetY);
   return (
     <div className="opening-statement-div">
       <img
@@ -13,6 +13,7 @@ function OpeningStatement() {
         src={blackIcon}
         style={{
           transform: `translateY(-${offsetY * 0.5}px) rotate(${offsetY * 0.2}deg)`,
+          transition: '1s',
         }}
       />
       <p className="opening-statement">
@@ -24,6 +25,7 @@ function OpeningStatement() {
         src={yellowIcon}
         style={{
           transform: `translateY(-${offsetY * 0.5}px) rotate(-${offsetY * 0.2}deg)`,
+          transition: '1s',
         }}
       />
     </div>
