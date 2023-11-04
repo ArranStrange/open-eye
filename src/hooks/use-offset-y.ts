@@ -7,7 +7,7 @@ export const useScrollPosition = () => {
   const handleScroll = () => setOffsetY(window.pageYOffset);
 
   useEffect(() => {
-    window.addEventListener('scroll', lodash.debounce(handleScroll, 10));
+    window.addEventListener('scroll', lodash.debounce(handleScroll, 5));
 
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);

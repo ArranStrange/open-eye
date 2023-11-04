@@ -12,7 +12,7 @@ function OpeningStatement() {
         className="black-icon"
         src={blackIcon}
         style={{
-          transform: `translateY(-${offsetY * 0.5}px) rotate(${offsetY * 0.2}deg)`,
+          transform: `translateY(-${offsetY * 0.3}px) rotate(${offsetY * 0.2}deg)`,
           transition: '1s',
         }}
       />
@@ -24,7 +24,7 @@ function OpeningStatement() {
         className="yellow-icon"
         src={yellowIcon}
         style={{
-          transform: `translateY(-${offsetY * 0.5}px) rotate(-${offsetY * 0.2}deg)`,
+          transform: `translateY(-${offsetY * 0.3}px) rotate(-${offsetY * 0.2}deg)`,
           transition: '1s',
         }}
       />

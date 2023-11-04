@@ -17,7 +17,7 @@ function AboutUs() {
           className="blue-icon"
           src={blueIcon}
           style={{
-            transform: `rotate(${offsetY * 0.05}deg)`,
+            transform: `translateY(${offsetY * 0.02}px) rotate(${offsetY * 0.03}deg)`,
             transition: '.5s',
           }}
         />
@@ -27,7 +27,7 @@ function AboutUs() {
           className="grey-icon"
           src={greyIcon}
           style={{
-            transform: `rotate(-${offsetY * 0.1}deg)`,
+            transform: `translateY(${offsetY * 0.02}px) rotate(-${offsetY * 0.02}deg)`,
             transition: '.5s',
           }}
         />

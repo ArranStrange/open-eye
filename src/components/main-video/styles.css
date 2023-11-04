@@ -1,3 +1,8 @@
+.video-main-div {
+  width: 100vmax;
+  height: 100%;
+}
+
 .video-container {
   display: flex;
   position: relative;

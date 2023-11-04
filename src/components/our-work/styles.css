@@ -1,16 +1,20 @@
+.our-work-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vmax;
+  background-color: #060f16;
+}
+
 .our-work-image-container {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  flex-direction: row;
   justify-content: center;
-  background-color: #060f16;
+  flex-wrap: wrap;
 }
 
 .images {
   display: flex;
   justify-content: space-between;
-  margin: 20px;
+  margin: 20px 20px 0 20px;
   width: 40%;
   height: 15%;
   z-index: 2;
@@ -26,5 +30,23 @@
   transform: scale(0.97);
 }
 
+.link-container {
+  display: flex;
+  width: 91%;
+  flex-direction: row;
+  justify-content: end;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  flex-wrap: wrap;
+  background-color: #060f16;
+  z-index: 2;
+}
 .link {
+  justify-content: start;
+  color: #eeedec;
+  z-index: 2;
+}
+.brass-dot {
+  width: 15px;
+  padding-right: 10px;
 }
