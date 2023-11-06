@@ -15,6 +15,7 @@ function AboutUs() {
         </p>
         <img
           className="blue-icon"
+          alt="background item - blue icon"
           src={blueIcon}
           style={{
             transform: `translateY(${offsetY * 0.02}px) rotate(${offsetY * 0.03}deg)`,
@@ -25,6 +26,7 @@ function AboutUs() {
       <div className="bottom-container">
         <img
           className="grey-icon"
+          alt="background item - grey icon"
           src={greyIcon}
           style={{
             transform: `translateY(${offsetY * 0.02}px) rotate(-${offsetY * 0.02}deg)`,
@@ -36,7 +38,7 @@ function AboutUs() {
           We take care of brands and maintain their authenticity, while adding new layers of
           expression and emotion.
           <div className="find-out-more">
-            <img className="yellow-dot" src={yellowDot} />
+            <img className="yellow-dot" alt="link placer - Yellow" src={yellowDot} />
             <a className="link"> Find out more about what we do</a>
           </div>
         </div>

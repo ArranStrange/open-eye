@@ -7,10 +7,16 @@ function NavigationBar() {
       <div className="logo">
         <img className="main-logo" src={mainLogo}></img>
       </div>
-      <div className="links">
-        <a href="/">Work </a>
-        <a href="/">Services </a>
-        <a href="/">Contact </a>
+      <div className="link-box">
+        <a className="links" href="/">
+          Work{' '}
+        </a>
+        <a className="links" href="/">
+          Services{' '}
+        </a>
+        <a className="links" href="/">
+          Contact{' '}
+        </a>
       </div>
     </div>
   );

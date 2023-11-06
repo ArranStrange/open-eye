@@ -6,9 +6,13 @@ function MeetTheTeam() {
   return (
     <div className="meet-the-team-container">
       <div className="meet-the-team-content-container">
-        <img className="meet-the-team-image shrink-on-hover" src={meetTheTeam}></img>
+        <img
+          className="meet-the-team-image shrink-on-hover"
+          alt="picture of the team"
+          src={meetTheTeam}
+        ></img>
         <div className="meet-the-team-link">
-          <img className="yellow-dot" src={yellowDot} />
+          <img className="yellow-dot" alt="link placer - Yellow" src={yellowDot} />
           <a className="meet-the-team-text">Meet the team </a>
         </div>
       </div>

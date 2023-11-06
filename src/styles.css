@@ -19,6 +19,7 @@
 .app {
   margin: -10px;
   overflow: hidden;
+  width: 100vmax;
 }
 
 .body {

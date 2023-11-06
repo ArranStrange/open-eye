@@ -10,6 +10,7 @@ function OpeningStatement() {
     <div className="opening-statement-div">
       <img
         className="black-icon"
+        alt="background item - black icon"
         src={blackIcon}
         style={{
           transform: `translateY(-${offsetY * 0.3}px) rotate(${offsetY * 0.2}deg)`,
@@ -22,6 +23,7 @@ function OpeningStatement() {
       </p>
       <img
         className="yellow-icon"
+        alt="background item - yellow icon"
         src={yellowIcon}
         style={{
           transform: `translateY(-${offsetY * 0.3}px) rotate(-${offsetY * 0.2}deg)`,

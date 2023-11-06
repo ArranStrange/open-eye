@@ -9,10 +9,10 @@ function OurWork() {
     <>
       <div className="our-work-container">
         <div className="our-work-image-container">
-          <img className="images shrink-on-hover" src={stephenFry} />
-          <img className="images shrink-on-hover" src={forwards} />
-          <img className="images shrink-on-hover" src={princes} />
-          <img className="images shrink-on-hover" src={princes} />
+          <img className="images shrink-on-hover" alt="our project 1" src={stephenFry} />
+          <img className="images shrink-on-hover" alt="our project 2" src={forwards} />
+          <img className="images shrink-on-hover" alt="our project 3" src={princes} />
+          <img className="images shrink-on-hover" alt="our project 14" src={princes} />
         </div>
         <div className="link-container">
           <img className="brass-dot" src={brassDot} />
