@@ -22,8 +22,9 @@
   width: 100vmax;
 }
 
-.body {
+body {
   font-family: 'Moderat';
+  cursor: none;
 }
 
 p {

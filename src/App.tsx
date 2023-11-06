@@ -1,7 +1,6 @@
 import AboutUs from './components/about-us';
 import CustomMouse from './components/custom-mouse';
 import Footer from './components/footer';
-import ImageCarousel from './components/image-carousel';
 import MainVideo from './components/main-video';
 import MeetTheTeam from './components/meet-the-team';
 import NavigationBar from './components/navigation-bar';
