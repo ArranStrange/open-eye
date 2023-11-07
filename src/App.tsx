@@ -1,5 +1,7 @@
 import AboutUs from './components/about-us';
 import CustomMouse from './components/custom-mouse';
+import FloatingIcons from './components/floating-icons-1';
+import FloatingIcons2 from './components/floating-icons-2';
 import Footer from './components/footer';
 import MainVideo from './components/main-video';
 import MeetTheTeam from './components/meet-the-team';
@@ -11,10 +13,12 @@ import './styles.css';
 function App() {
   return (
     <div className="app">
+      <FloatingIcons />
       <CustomMouse />
       <NavigationBar />
       <OpeningStatement />
       <MainVideo />
+      <FloatingIcons2 />
       <AboutUs />
       <OurWork />
       <MeetTheTeam />

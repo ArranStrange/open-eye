@@ -1,0 +1,21 @@
+.floating-icons-container {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  justify-content: center;
+  position: absolute;
+  width: 100vmax;
+}
+
+.black-icon {
+  margin-top: 20%;
+  width: 33%;
+  z-index: 0;
+}
+
+.yellow-icon {
+  margin-left: 30%;
+  overflow: hidden;
+  width: 100%;
+  z-index: 1;
+}

@@ -44,3 +44,8 @@ a {
   color: #000000;
   font-size: large;
 }
+
+a:hover {
+  cursor: url(./components/assets/Cursor/cursor-on-hover-state.svg);
+  width: 15px;
+}

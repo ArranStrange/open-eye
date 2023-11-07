@@ -13,26 +13,8 @@ function AboutUs() {
           We sit in the intersection of brand identity and motion design, offering a balance of
           experience and curiosity.
         </p>
-        <img
-          className="blue-icon"
-          alt="background item - blue icon"
-          src={blueIcon}
-          style={{
-            transform: `translateY(${offsetY * 0.02}px) rotate(${offsetY * 0.03}deg)`,
-            transition: '.5s',
-          }}
-        />
       </div>
       <div className="bottom-container">
-        <img
-          className="grey-icon"
-          alt="background item - grey icon"
-          src={greyIcon}
-          style={{
-            transform: `translateY(${offsetY * 0.02}px) rotate(-${offsetY * 0.02}deg)`,
-            transition: '.5s',
-          }}
-        />
         <div className="about-us-content-right">
           We simply add motion to brand identities to help them communicate quickly and efficiently.
           We take care of brands and maintain their authenticity, while adding new layers of

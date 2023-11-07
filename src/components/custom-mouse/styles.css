@@ -2,13 +2,12 @@
   position: absolute;
   width: 25px;
   height: 25px;
-  background: #fff;
+  background: #f3fdb8;
   border-radius: 50%;
   top: var(--y, 0);
   left: var(--x, 0);
   transform: translate(-50%, -50%);
-  z-index: 2;
   mix-blend-mode: difference;
-  transition: transform 0.2s;
+  transition: 0.1s;
   z-index: 99999;
 }

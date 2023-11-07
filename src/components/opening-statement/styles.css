@@ -1,42 +1,21 @@
-@font-face {
-  font-family: 'Moderat-Regular';
-  src: url('../assets/Fonts/Moderat-Regular.otf') format('otf');
-}
-
 .opening-statement-div {
   display: flex;
-  overflow: hidden;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  overflow: hidden;
   background-color: #eeedec;
   color: #0077ff;
   z-index: -1;
 }
 
 .opening-statement {
-  height: 30%;
+  display: flex;
   width: 50%;
   justify-content: center;
   font-family: Moderat;
-  text-align: start;
-  font-size: 40px;
+  font-size: 50px;
   color: #0077ff;
   z-index: 2;
-  padding-bottom: 200px;
-}
-
-.black-icon {
-  top: 100px;
-  margin-left: -220px;
-  width: 33%;
-  height: auto;
-  z-index: 0;
-}
-
-.yellow-icon {
-  overflow: hidden;
-  margin-right: -220px;
-  margin-top: 200px;
-  width: 33%;
-  z-index: 1;
+  padding-bottom: 15%;
 }

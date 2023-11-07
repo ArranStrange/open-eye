@@ -5,7 +5,7 @@
 
 .video-container {
   display: flex;
-  position: relative;
+  position: absolute;
   overflow: visible;
   flex-direction: column;
   background-color: #0b1e2d;

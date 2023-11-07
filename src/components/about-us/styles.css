@@ -3,6 +3,8 @@
   flex-wrap: wrap;
   background-color: #0b1e2d;
   overflow: hidden;
+  flex-shrink: inherit;
+  margin-top: 28%;
 }
 .top-container {
   margin-top: 100px;
@@ -36,6 +38,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin-top: 05%;
+  margin-left: 20%;
   width: 100%;
   z-index: 0;
 }
@@ -61,6 +65,7 @@
   padding-top: 50px;
   flex-wrap: wrap;
   z-index: 2;
+  margin-bottom: 20px;
 }
 
 .link {

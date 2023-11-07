@@ -23,11 +23,11 @@
 
 .shrink-on-hover {
   display: flex;
-  transition-duration: 0.3s;
+  transition-duration: 0.4s;
 }
 .shrink-on-hover:hover,
 .shrink-on-hover:active {
-  transform: scale(0.97);
+  transform: scale(0.95);
 }
 
 .link-container {
