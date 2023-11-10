@@ -1,11 +1,7 @@
-import { useScrollPosition } from '../../hooks/use-offset-y';
 import yellowDot from '../assets/Dots/dot-yellow.svg';
-import blueIcon from '../assets/Icons/blue.svg';
-import greyIcon from '../assets/Icons/grey.svg';
 import './styles.css';
 
 function AboutUs() {
-  const offsetY = useScrollPosition();
   return (
     <div className="about-us-box">
       <div className="top-container">

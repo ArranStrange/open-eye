@@ -1,5 +1,3 @@
-import { Fade } from 'react-awesome-reveal';
-
 import videoSource from '../assets/test-title-video.mp4';
 import './styles.css';
 

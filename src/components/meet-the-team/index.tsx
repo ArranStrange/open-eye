@@ -8,7 +8,7 @@ function MeetTheTeam() {
       <div className="meet-the-team-content-container">
         <img
           className="meet-the-team-image shrink-on-hover"
-          alt="picture of the team"
+          alt="team meeting in office"
           src={meetTheTeam}
         ></img>
         <div className="meet-the-team-link">

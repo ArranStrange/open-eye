@@ -5,7 +5,7 @@ function NavigationBar() {
   return (
     <div className="navbar">
       <div className="logo">
-        <img className="main-logo" src={mainLogo}></img>
+        <img className="main-logo" alt="main logo" src={mainLogo}></img>
       </div>
       <div className="link-box">
         <a className="links" href="/">
