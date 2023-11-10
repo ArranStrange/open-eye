@@ -25,6 +25,8 @@
 body {
   font-family: 'Moderat';
   cursor: none;
+  overflow-x: hidden;
+  margin: 0;
 }
 
 p {

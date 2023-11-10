@@ -5,7 +5,7 @@ import './styles.css';
 
 function FloatingIcons() {
   const offsetY = useScrollPosition();
-  console.log(offsetY);
+
   return (
     <div className="floating-icons-container">
       <img

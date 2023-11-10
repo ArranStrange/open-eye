@@ -6,19 +6,21 @@ import './styles.css';
 function IntroGif() {
   const [isVisible, setIsVisible] = useState(true);
   const setTime = 3400;
-  const [zIndex, setZIndex] = useState(999);
 
   useEffect(() => {
     const timeout = setTimeout(() => {
       setIsVisible(false);
-      setZIndex(-999);
     }, setTime);
 
     return () => clearTimeout(timeout);
   }, []);
 
+  if (!isVisible) {
+    return null;
+  }
+
   return (
-    <div style={{ zIndex: zIndex }} className="intro-gif-div fade-out">
+    <div style={{ zIndex: 999 }} className="intro-gif-div fade-out">
       {isVisible && <img className="intro-gif" alt="intro-pop-up-gif" src={introGif} />}
     </div>
   );

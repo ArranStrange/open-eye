@@ -4,10 +4,10 @@
   background-color: #0b1e2d;
   overflow: hidden;
   flex-shrink: inherit;
-  margin-top: 28%;
+  border: 1px solid #0b1e2d;
 }
 .top-container {
-  margin-top: 100px;
+  margin-top: 50px;
   display: flex;
   z-index: 0;
 }
