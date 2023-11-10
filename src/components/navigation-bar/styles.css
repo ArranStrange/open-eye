@@ -12,6 +12,7 @@
   flex-direction: row;
   justify-content: end;
   padding-right: 20px;
+  z-index: 999;
 }
 
 .main-logo {
