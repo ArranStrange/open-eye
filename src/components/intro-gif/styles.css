@@ -1,0 +1,17 @@
+.intro-gif-div {
+  display: flex;
+  position: fixed;
+  overflow: hidden;
+  justify-content: start;
+  align-items: start;
+  width: 101%;
+  height: 101%;
+  z-index: 10;
+  transition: opactiy 1s ease-out;
+}
+
+.intro-gif {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
