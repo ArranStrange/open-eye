@@ -15,8 +15,8 @@ function App() {
   return (
     <div className="app">
       <IntroGif />
-      <FloatingIcons />
       <CustomMouse />
+      <FloatingIcons />
       <NavigationBar />
       <OpeningStatement />
       <MainVideo />
