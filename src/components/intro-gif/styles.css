@@ -1,3 +1,16 @@
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-out {
+  animation: fadeOut 0.6s ease-out 2.9s;
+}
+
 .intro-gif-div {
   display: flex;
   position: fixed;
@@ -6,8 +19,8 @@
   align-items: start;
   width: 101%;
   height: 101%;
-  z-index: 10;
-  transition: opactiy 1s ease-out;
+  z-index: 9999;
+  transition: ease-out 1s;
 }
 
 .intro-gif {

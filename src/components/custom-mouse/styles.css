@@ -9,5 +9,5 @@
   transform: translate(-50%, -50%);
   mix-blend-mode: difference;
   transition: 0.1s;
-  z-index: 99999;
+  z-index: 998;
 }
