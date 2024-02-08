@@ -5,9 +5,7 @@ import './styles.css';
 function NavigationBar() {
   return (
     <div className="navbar">
-      <div className="logo">
-        <img className="main-logo" alt="main logo" src={mainLogo}></img>
-      </div>
+      <img className="main-logo" alt="main logo" src={mainLogo}></img>
       <div className="link-box">
         <LinkWrapper>
           <a className="links" href="/">

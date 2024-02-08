@@ -12,20 +12,21 @@
 }
 
 .intro-gif-div {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
   display: flex;
   position: fixed;
   justify-content: center;
   align-items: center;
   width: 100vw;
   height: calc(100vh + 20px);
-  z-index: 9999;
+  z-index: 100;
   transition: ease-out 1s;
+  background-color: #0b1114;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .intro-gif {
   display: flex;
-  width: 100%;
-  height: 100%;
+  justify-content: center;
+  z-index: 100;
 }

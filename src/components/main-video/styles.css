@@ -3,9 +3,9 @@
   overflow: visible;
   flex-direction: column;
   background-color: #0b1e2d;
-  font-weight: bold;
   align-items: center;
-  width: 100%;
+  width: 100vw;
+  padding-bottom: 30px;
 }
 
 .video-content {
@@ -15,4 +15,11 @@
   z-index: 1;
   border-radius: 10px;
   margin-top: -150px;
+}
+
+@media screen and (max-width: 768px) {
+  .video-content {
+    font-size: 30px;
+    width: 100vw;
+  }
 }

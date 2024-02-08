@@ -1,8 +1,9 @@
 .opening-statement-div {
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 100%;
+  align-items: start;
+  width: 100vw;
+  height: 70vh;
   overflow: hidden;
   background-color: #eeedec;
   color: #0077ff;
@@ -11,11 +12,23 @@
 
 .opening-statement {
   display: flex;
-  width: 50%;
-  justify-content: center;
-  font-family: Moderat;
-  font-size: 50px;
+  text-align: start;
+  align-items: center;
+  width: 60%;
+  height: 50%;
+  font-size: 40px;
   color: #0077ff;
-  z-index: 2;
-  padding-bottom: 15%;
+  z-index: 1;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .opening-statement-div {
+    height: 60vh;
+  }
+
+  .opening-statement {
+    width: 66%;
+    font-size: 30px;
+  }
 }
