@@ -1,6 +1,7 @@
 .footer-content {
   display: flex;
   flex-direction: column;
+  width: 100vw;
   padding: 20px;
   background-color: #eeedec;
   justify-content: flex-end;
@@ -11,4 +12,12 @@
 .footer-content-link {
   display: block;
   margin-right: 20px;
+  text-align: end;
+  padding-right: 5vw;
 }
+
+/* @media screen and (max-width: 768px) {
+  .footer-content-link {
+    padding-right: 20px;
+  }
+} */

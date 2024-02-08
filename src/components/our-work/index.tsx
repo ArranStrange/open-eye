@@ -15,8 +15,11 @@ function OurWork() {
           <img className="images shrink-on-hover" alt="our project 14" src={princes} />
         </div>
         <div className="link-container">
-          <img className="brass-dot" alt="brass placeholder" src={brassDot} />
-          <a className="link">Our Projects</a>
+          <a className="link">
+            {' '}
+            <img className="brass-dot" alt="brass placeholder" src={brassDot} />
+            Our Projects
+          </a>
         </div>
       </div>
     </>
