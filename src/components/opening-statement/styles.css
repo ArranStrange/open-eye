@@ -24,11 +24,13 @@
 
 @media screen and (max-width: 768px) {
   .opening-statement-div {
-    height: 60vh;
+    height: 50vh;
   }
 
   .opening-statement {
+    margin-top: 80px;
     width: 66%;
-    font-size: 30px;
+    height: 5%;
+    font-size: 1rem;
   }
 }

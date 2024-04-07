@@ -1,3 +1,5 @@
+import { motion } from 'framer-motion';
+
 import yellowDot from '../assets/Dots/dot-yellow.svg';
 import meetTheTeam from '../assets/Images/Homepage/meet-the-team.jpeg';
 import './styles.css';
@@ -13,7 +15,13 @@ function MeetTheTeam() {
 
       <a className="meet-the-team-text">
         {' '}
-        <img className="yellow-dot" alt="link placer - Yellow" src={yellowDot} />
+        <motion.img
+          whileHover={{ scale: 0.97 }}
+          transition={{ duration: 1 }}
+          className="yellow-dot"
+          alt="link placer - Yellow"
+          src={yellowDot}
+        />
         Meet the team
       </a>
     </div>

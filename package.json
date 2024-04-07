@@ -1,7 +1,8 @@
 {
   "name": "luke-and-saph",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://arranstrange.github.io/open-eye",
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@studio-freight/lenis": "^1.0.27",
@@ -14,7 +15,8 @@
     "@types/react": "^18.2.33",
     "@types/react-dom": "^18.2.14",
     "babel": "^6.23.0",
-    "framer-motion": "^10.16.4",
+    "framer-motion": "^11.0.25",
+    "gh-pages": "^6.1.1",
     "lodash": "^4.17.21",
     "lodash.debounce": "^4.0.8",
     "prettier": "3.0.3",
@@ -34,6 +36,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

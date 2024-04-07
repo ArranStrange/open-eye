@@ -1,4 +1,5 @@
 import yellowDot from '../assets/Dots/dot-yellow.svg';
+import FloatingIcons2 from '../floating-icons-2';
 import './styles.css';
 
 function AboutUs() {

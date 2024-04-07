@@ -58,6 +58,7 @@
 
 @media screen and (max-width: 768px) {
   .about-us-box {
+    width: 100vw;
   }
 
   .about-us-content-left {
@@ -66,7 +67,7 @@
   }
 
   .bottom-container {
-    margin-top: 1vh;
+    margin-top: 50px;
     margin-right: 100vw;
   }
   .about-us-content-right {
