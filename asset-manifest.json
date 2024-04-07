@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/open-eye/static/css/main.b87e92fd.css",
+    "main.js": "/open-eye/static/js/main.c89b32bc.js",
+    "static/media/test-title-video.mp4": "/open-eye/static/media/test-title-video.e60901d6263757e80fc7.mp4",
+    "static/media/stephen-fry.jpeg": "/open-eye/static/media/stephen-fry.5cee027844e1ce681c8a.jpeg",
+    "static/media/intro.gif": "/open-eye/static/media/intro.e33bebf246d61425d22b.gif",
+    "static/media/forwards.jpeg": "/open-eye/static/media/forwards.68d577f548212042a4f5.jpeg",
+    "static/media/meet-the-team.jpeg": "/open-eye/static/media/meet-the-team.2f12feb40028a75d3a92.jpeg",
+    "static/media/Moderat-Regular.otf": "/open-eye/static/media/Moderat-Regular.425114be75268ab63c17.otf",
+    "static/media/princes-gate.jpg": "/open-eye/static/media/princes-gate.c904dc5294efca74c650.jpg",
+    "static/media/main-logo.svg": "/open-eye/static/media/main-logo.9fd41a3f8fbd4f13b948bb98d269ebc7.svg",
+    "static/media/blue.svg": "/open-eye/static/media/blue.b7a0ed150c78cb875b817dc8345c1e0c.svg",
+    "static/media/black.svg": "/open-eye/static/media/black.18eef3b83f6ed9f450f70f7c5c1b266b.svg",
+    "static/media/grey.svg": "/open-eye/static/media/grey.e36c1bf0997420126455cb66bf7b11cd.svg",
+    "static/media/yellow.svg": "/open-eye/static/media/yellow.c4b8744979ce62e664cb1f2752e95388.svg",
+    "index.html": "/open-eye/index.html",
+    "static/media/cursor-on-hover-state.svg": "/open-eye/static/media/cursor-on-hover-state.1cad1de58d42b26dc8fb.svg",
+    "static/media/dot-yellow.svg": "/open-eye/static/media/dot-yellow.0e2b8db2a0d91c3bf31b509c34962474.svg",
+    "static/media/dot-brass.svg": "/open-eye/static/media/dot-brass.fd5b87b8caec345f5013c67827fcc7b6.svg",
+    "main.b87e92fd.css.map": "/open-eye/static/css/main.b87e92fd.css.map",
+    "main.c89b32bc.js.map": "/open-eye/static/js/main.c89b32bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b87e92fd.css",
+    "static/js/main.c89b32bc.js"
+  ]
+}
