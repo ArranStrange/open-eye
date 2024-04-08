@@ -8,3 +8,13 @@
   width: 25px;
   z-index: 999;
 }
+
+@media screen and (max-width: 768px) {
+  .cursor-normal {
+    display: none;
+  }
+
+  .cursor-hover {
+    display: none;
+  }
+}

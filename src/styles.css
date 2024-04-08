@@ -17,11 +17,12 @@
 }
 html {
   cursor: none;
+  width: 100vw;
 }
 
 .app {
   overflow: hidden;
-  width: 100vmax;
+  width: 100vw;
   cursor: none;
 }
 
@@ -54,4 +55,10 @@ a {
 
 a:hover {
   cursor: url(./components/assets/Cursor/cursor-on-hover-state.svg);
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    cursor: none;
+  }
 }
