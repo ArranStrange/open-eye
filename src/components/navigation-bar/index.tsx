@@ -1,3 +1,5 @@
+import { motion } from 'framer-motion';
+
 import mainLogo from '../assets/Logos/main-logo.svg';
 import LinkWrapper from '../link-wrapper';
 import './styles.css';
@@ -5,7 +7,13 @@ import './styles.css';
 function NavigationBar() {
   return (
     <div className="navbar">
-      <img className="main-logo" alt="main logo" src={mainLogo}></img>
+      <motion.img
+        whileHover={{ scale: 0.95 }}
+        transition={{ duration: 1 }}
+        className="main-logo"
+        alt="main logo"
+        src={mainLogo}
+      />
       <div className="link-box">
         <LinkWrapper>
           <a className="links" href="/">

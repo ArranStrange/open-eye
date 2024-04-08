@@ -15,22 +15,26 @@
     url('https://db.onlinewebfonts.com/t/63d76549dab079596f161248e8bf3891.svg#Runda W00 Normal')
       format('svg');
 }
+html {
+  cursor: none;
+}
 
 .app {
   overflow: hidden;
   width: 100vmax;
+  cursor: none;
 }
 
 body {
   font-family: 'Moderat';
-  cursor: none;
   overflow-x: hidden;
   margin: 0;
+  cursor: none;
 }
 
 p {
   font-family: 'Moderat';
-  font-size: large;
+  font-size: 2rem;
   color: #eeedec;
 }
 
@@ -44,9 +48,10 @@ a {
   font-family: 'Runda W00 Normal';
   color: #000000;
   font-size: large;
+  cursor: none;
+  text-decoration: none;
 }
 
 a:hover {
   cursor: url(./components/assets/Cursor/cursor-on-hover-state.svg);
-  width: 15px;
 }

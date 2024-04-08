@@ -13,15 +13,6 @@
   border-radius: 10px;
 }
 
-.shrink-on-hover {
-  display: flex;
-  transition-duration: 0.3s;
-}
-.shrink-on-hover:hover,
-.shrink-on-hover:active {
-  transform: scale(0.97);
-}
-
 .yellow-dot {
   width: 15px;
   padding-right: 10px;
@@ -30,9 +21,10 @@
 
 .meet-the-team-text {
   width: 90%;
-  padding-top: 10px;
+  padding: 20px;
   text-align: end;
   color: #eeedec;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {

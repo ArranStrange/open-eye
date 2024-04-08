@@ -7,21 +7,16 @@ import './styles.css';
 function MeetTheTeam() {
   return (
     <div className="meet-the-team-container">
-      <img
-        className="meet-the-team-image shrink-on-hover"
+      <motion.img
+        className="meet-the-team-image"
         alt="team meeting in office"
         src={meetTheTeam}
-      ></img>
+        whileHover={{ scale: 0.99 }}
+        transition={{ duration: 1 }}
+      />
 
       <a className="meet-the-team-text">
-        {' '}
-        <motion.img
-          whileHover={{ scale: 0.97 }}
-          transition={{ duration: 1 }}
-          className="yellow-dot"
-          alt="link placer - Yellow"
-          src={yellowDot}
-        />
+        <img className="yellow-dot" alt="link placer - Yellow" src={yellowDot} />
         Meet the team
       </a>
     </div>

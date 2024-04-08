@@ -1,4 +1,5 @@
 import AboutUs from './components/about-us';
+import CursorComponent from './components/custom-cursor';
 import CustomMouse from './components/custom-mouse';
 import FloatingIcons from './components/floating-icons-1';
 import FloatingIcons2 from './components/floating-icons-2';
@@ -15,7 +16,7 @@ function App() {
   return (
     <div className="app">
       <IntroGif />
-      <CustomMouse />
+      <CursorComponent />
       <FloatingIcons />
       <NavigationBar />
       <OpeningStatement />

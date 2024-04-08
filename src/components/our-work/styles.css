@@ -26,14 +26,16 @@
 
 .link-container {
   display: flex;
-  width: 80vw;
+  width: 85vw;
   flex-direction: row;
   justify-content: end;
+  text-align: end;
   padding-bottom: 30px;
   background-color: #060f16;
   z-index: 2;
 }
 .link {
+  padding: 20px;
   justify-content: start;
   text-align: end;
   color: #eeedec;

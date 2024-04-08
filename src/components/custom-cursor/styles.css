@@ -1,0 +1,10 @@
+.cursor-normal {
+  width: 25px;
+  z-index: 999;
+  mix-blend-mode: difference;
+}
+
+.cursor-hover {
+  width: 25px;
+  z-index: 999;
+}
