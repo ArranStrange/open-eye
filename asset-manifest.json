@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/open-eye/static/css/main.6cbf884b.css",
-    "main.js": "/open-eye/static/js/main.e63c74bf.js",
+    "main.css": "/open-eye/static/css/main.59146e36.css",
+    "main.js": "/open-eye/static/js/main.c15a1644.js",
     "static/media/test-title-video.mp4": "/open-eye/static/media/test-title-video.e60901d6263757e80fc7.mp4",
     "static/media/princes-gate.png": "/open-eye/static/media/princes-gate.751a0b10d5aa3dd5482f.png",
     "static/media/stephen-fry.jpeg": "/open-eye/static/media/stephen-fry.5cee027844e1ce681c8a.jpeg",
@@ -16,14 +16,13 @@
     "static/media/grey.svg": "/open-eye/static/media/grey.e36c1bf0997420126455cb66bf7b11cd.svg",
     "static/media/yellow.svg": "/open-eye/static/media/yellow.c4b8744979ce62e664cb1f2752e95388.svg",
     "index.html": "/open-eye/index.html",
-    "static/media/cursor-on-hover-state.svg": "/open-eye/static/media/cursor-on-hover-state.1cad1de58d42b26dc8fb.svg",
     "static/media/dot-yellow.svg": "/open-eye/static/media/dot-yellow.0e2b8db2a0d91c3bf31b509c34962474.svg",
     "static/media/dot-brass.svg": "/open-eye/static/media/dot-brass.fd5b87b8caec345f5013c67827fcc7b6.svg",
-    "main.6cbf884b.css.map": "/open-eye/static/css/main.6cbf884b.css.map",
-    "main.e63c74bf.js.map": "/open-eye/static/js/main.e63c74bf.js.map"
+    "main.59146e36.css.map": "/open-eye/static/css/main.59146e36.css.map",
+    "main.c15a1644.js.map": "/open-eye/static/js/main.c15a1644.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cbf884b.css",
-    "static/js/main.e63c74bf.js"
+    "static/css/main.59146e36.css",
+    "static/js/main.c15a1644.js"
   ]
 }
