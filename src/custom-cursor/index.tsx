@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
-import CursorNormalState from '../assets/Cursor/cursor-normal-state.png';
-import CursorHoverState from '../assets/Cursor/cursor-on-hover-state.png';
+import CursorNormalState from './Cursor/cursor-normal-state.png';
+import CursorHoverState from './Cursor/cursor-on-hover-state.png';
 import './styles.css';
 
 const useCursor = () => {

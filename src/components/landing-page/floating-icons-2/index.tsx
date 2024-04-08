@@ -1,4 +1,4 @@
-import { useScrollPosition } from '../../hooks/use-offset-y';
+import { useScrollPosition } from '../../../hooks/use-offset-y';
 import blueIcon from '../assets/Icons/blue.svg';
 import greyIcon from '../assets/Icons/grey.svg';
 import './styles.css';

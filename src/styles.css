@@ -1,6 +1,6 @@
 @font-face {
   font-family: Moderat;
-  src: url(components/assets/Fonts/Moderat-Regular.otf);
+  src: url(./Fonts/Moderat-Regular.otf);
 }
 
 @font-face {
@@ -51,10 +51,6 @@ a {
   font-size: large;
   cursor: none;
   text-decoration: none;
-}
-
-a:hover {
-  cursor: url(./components/assets/Cursor/cursor-on-hover-state.svg);
 }
 
 @media screen and (max-width: 768px) {

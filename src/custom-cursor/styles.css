@@ -12,9 +12,11 @@
 @media screen and (max-width: 768px) {
   .cursor-normal {
     display: none;
+    opacity: 0;
   }
 
   .cursor-hover {
     display: none;
+    opacity: 0;
   }
 }
