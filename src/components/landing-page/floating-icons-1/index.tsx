@@ -11,13 +11,13 @@ function FloatingIcons() {
   return (
     <div className="floating-icons-container">
       <motion.img
-        whileHover={{ scale: 0.95 }}
+        whileHover={{ scale: 1.02 }}
         transition={{ duration: 1 }}
         className="black-icon"
         alt="background item - black icon"
         src={blackIcon}
         style={{
-          transform: `translateY(-${offsetY * 0.3}px) rotate(${offsetY * 0.2}deg)`,
+          transform: `translateY(-${offsetY * 0.05}px) rotate(${offsetY * 0.05}deg)`,
           transition: '.3s',
         }}
       />
@@ -29,7 +29,7 @@ function FloatingIcons() {
         alt="background item - yellow icon"
         src={yellowIcon}
         style={{
-          transform: `translateY(-${offsetY * 0.3}px) rotate(-${offsetY * 0.2}deg)`,
+          transform: `translateY(-${offsetY * 0.05}px) rotate(-${offsetY * 0.05}deg)`,
           transition: '.2s',
         }}
       />
