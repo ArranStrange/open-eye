@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/open-eye/static/css/main.d1ce341c.css",
-    "main.js": "/open-eye/static/js/main.7e019857.js",
+    "main.css": "/open-eye/static/css/main.9b9f5b6c.css",
+    "main.js": "/open-eye/static/js/main.e67df0c8.js",
     "static/media/test-title-video.mp4": "/open-eye/static/media/test-title-video.e60901d6263757e80fc7.mp4",
     "static/media/princes-gate.png": "/open-eye/static/media/princes-gate.751a0b10d5aa3dd5482f.png",
     "static/media/stephen-fry.jpeg": "/open-eye/static/media/stephen-fry.5cee027844e1ce681c8a.jpeg",
@@ -18,11 +18,11 @@
     "index.html": "/open-eye/index.html",
     "static/media/dot-yellow.svg": "/open-eye/static/media/dot-yellow.0e2b8db2a0d91c3bf31b509c34962474.svg",
     "static/media/dot-brass.svg": "/open-eye/static/media/dot-brass.fd5b87b8caec345f5013c67827fcc7b6.svg",
-    "main.d1ce341c.css.map": "/open-eye/static/css/main.d1ce341c.css.map",
-    "main.7e019857.js.map": "/open-eye/static/js/main.7e019857.js.map"
+    "main.9b9f5b6c.css.map": "/open-eye/static/css/main.9b9f5b6c.css.map",
+    "main.e67df0c8.js.map": "/open-eye/static/js/main.e67df0c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1ce341c.css",
-    "static/js/main.7e019857.js"
+    "static/css/main.9b9f5b6c.css",
+    "static/js/main.e67df0c8.js"
   ]
 }
