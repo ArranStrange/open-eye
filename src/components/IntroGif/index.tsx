@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-import introGif from '../assets/intro.gif';
+import introGif from './intro.gif';
 import './styles.css';
 
 function IntroGif() {
