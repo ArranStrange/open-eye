@@ -1,4 +1,4 @@
-import LandingPage from './components/landing-page/LandingPage';
+import LandingPage from './components/LandingPage/LandingPage';
 import CursorComponent from './custom-cursor';
 import './styles.css';
 
