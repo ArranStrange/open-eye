@@ -1,5 +1,18 @@
 import React from 'react';
 
+import { motion } from 'framer-motion';
+
 export default function WorkPage() {
-  return <div>WorkPage</div>;
+  return (
+    <div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 1 }}
+      >
+        WorkPage
+      </motion.div>
+    </div>
+  );
 }
