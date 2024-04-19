@@ -1,0 +1,36 @@
+.navbar {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: start;
+  background-color: #eeedec;
+  width: 100vw;
+  height: 10vh;
+  overflow: hidden;
+  z-index: 100;
+  /* border: 1px solid green; */
+}
+.main-logo {
+  grid-column: 1 /1 span;
+  width: 12vw;
+  padding: 10px;
+  z-index: 100;
+}
+
+.link-box {
+  display: flex;
+  grid-column: 2/2 span;
+  flex-direction: row;
+  justify-content: end;
+  align-items: top;
+  padding-top: 20px;
+  padding-right: 20px;
+  z-index: 100;
+}
+
+.links {
+  text-align: center;
+  top: 0;
+  right: 0;
+  padding-right: 2vw;
+  /* border: 1px solid green; */
+}

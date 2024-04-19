@@ -1,0 +1,37 @@
+.meet-the-team-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0077ff;
+  width: 100vw;
+  height: 100vh;
+}
+
+.meet-the-team-image {
+  width: 90%;
+  border-radius: 10px;
+}
+
+.yellow-dot {
+  width: 15px;
+  padding-right: 10px;
+  justify-content: end;
+}
+
+.meet-the-team-text {
+  width: 90%;
+  padding: 20px;
+  text-align: end;
+  color: #eeedec;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .meet-the-team-container {
+    height: 40vh;
+  }
+  .meet-the-team-text {
+    font-size: 1rem;
+  }
+}

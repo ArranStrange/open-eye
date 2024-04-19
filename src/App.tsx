@@ -1,29 +1,29 @@
-import AboutUs from './components/about-us';
-import CustomMouse from './components/custom-mouse';
-import FloatingIcons from './components/floating-icons-1';
-import FloatingIcons2 from './components/floating-icons-2';
-import Footer from './components/footer';
-import IntroGif from './components/intro-gif';
-import MainVideo from './components/main-video';
-import MeetTheTeam from './components/meet-the-team';
-import NavigationBar from './components/navigation-bar';
-import OpeningStatement from './components/opening-statement';
-import OurWork from './components/our-work';
+import { motion } from 'framer-motion';
+import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
+
+import Footer from './components/Footer';
+import IntroGif from './components/IntroGif';
+import LandingPage from './components/LandingPage/LandingPage';
+import Services from './components/Services/Services';
+import WorkPage from './components/WorkPage/WorkPage';
+import NavigationBar from './components/navigation-bar/Nav';
+import CursorComponent from './custom-cursor';
 import './styles.css';
 
 function App() {
   return (
     <div className="app">
       <IntroGif />
-      <CustomMouse />
-      <FloatingIcons />
-      <NavigationBar />
-      <OpeningStatement />
-      <MainVideo />
-      <FloatingIcons2 />
-      <AboutUs />
-      <OurWork />
-      <MeetTheTeam />
+      <CursorComponent />
+      <BrowserRouter>
+        <NavigationBar />
+        <Routes>
+          <Route index element={<LandingPage />} />
+          <Route path="/home" element={<LandingPage />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/ourwork" element={<WorkPage />} />
+        </Routes>
+      </BrowserRouter>
       <Footer />
     </div>
   );
