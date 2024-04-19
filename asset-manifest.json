@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/open-eye/static/css/main.5171a468.css",
-    "main.js": "/open-eye/static/js/main.1ce46cb4.js",
+    "main.js": "/open-eye/static/js/main.6ab9b59e.js",
     "static/media/test-title-video.mp4": "/open-eye/static/media/test-title-video.e60901d6263757e80fc7.mp4",
     "static/media/princes-gate.png": "/open-eye/static/media/princes-gate.751a0b10d5aa3dd5482f.png",
     "static/media/stephen-fry.jpeg": "/open-eye/static/media/stephen-fry.5cee027844e1ce681c8a.jpeg",
@@ -19,10 +19,10 @@
     "static/media/dot-yellow.svg": "/open-eye/static/media/dot-yellow.0e2b8db2a0d91c3bf31b509c34962474.svg",
     "static/media/dot-brass.svg": "/open-eye/static/media/dot-brass.fd5b87b8caec345f5013c67827fcc7b6.svg",
     "main.5171a468.css.map": "/open-eye/static/css/main.5171a468.css.map",
-    "main.1ce46cb4.js.map": "/open-eye/static/js/main.1ce46cb4.js.map"
+    "main.6ab9b59e.js.map": "/open-eye/static/js/main.6ab9b59e.js.map"
   },
   "entrypoints": [
     "static/css/main.5171a468.css",
-    "static/js/main.1ce46cb4.js"
+    "static/js/main.6ab9b59e.js"
   ]
 }
